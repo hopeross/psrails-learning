@@ -20,4 +20,6 @@ Current: 1 March 2023
   * Also not terribly difficult though my generate didn't automagically add the new column names, I wound up building that by hand
 * Lesson 7 - View Helpers
   * Weirdly making sense and very adament about separation of concerns.  Putting business logic not on the view itself, and not using a ton of ruby in the view as well.
+* Lesson 8 - Layouts
+  * Short and to the point
 * 
