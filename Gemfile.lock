@@ -100,7 +100,6 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.1)
     minitest (5.17.0)
     msgpack (1.6.0)
     net-imap (0.3.4)
@@ -183,8 +182,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.1)
-      mini_portile2 (~> 2.8.0)
+    sqlite3 (1.6.1-x86_64-darwin)
     thor (1.2.1)
     thread_safe (0.3.6)
     tilt (2.1.0)
@@ -239,7 +237,7 @@ DEPENDENCIES
   webpacker (~> 5.0)
 
 RUBY VERSION
-   ruby 2.6.3p62
+   ruby 2.7.4p191
 
 BUNDLED WITH
    2.4.6

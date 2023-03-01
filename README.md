@@ -14,4 +14,6 @@ Current: 1 March 2023
   * Fought a little with webpacker on this one and just generalized differences between my environment and the cleaner environment the instructor has
 * Lesson 4 - Models
   * Yep.  Rails = Voodoo.  But, the migrations works fairly similarly to Entity Framework so it wasn't completely unfamiliar
+* Lesson 5 - Connecting MVC
+  * Well that was weirdly easy.  This may actually be making sense.  Model lays out the structure of the data and interfacing with the database.  View displays said dada.  Controller shovels info about between the various parties and handsd it to the router which serves it up to the end user.
 * 
