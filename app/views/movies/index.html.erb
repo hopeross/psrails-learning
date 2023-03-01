@@ -4,9 +4,9 @@
   <% @movies.each do |movie| %>
   <div>
     <div><%= movie.title %> (<%= movie.rating %>)</div>
-    <div><%= number_to_currency(movie.total_gross, precision: 0) %></div>
-    <div><%= movie.description %></div>
-    <div>Release Date: <%= movie.released_on %></div>
+    <div><%= hit_or_flop(movie) %></div>
+    <div><%= truncate(movie.description, length: 40, separator: ' ')  %></div>
+    <div>Release Year: <%= year_of(movie) %></div>
   </div>
   <% end %>
 </ul>
