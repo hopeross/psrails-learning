@@ -2,6 +2,11 @@
 
 <ul>
   <% @movies.each do |movie| %>
-  <li><%= movie.title %> (<%= movie.rating %>): <%= number_to_currency(movie.total_gross, precision: 0) %></li>
+  <div>
+    <div><%= movie.title %> (<%= movie.rating %>)</div>
+    <div><%= number_to_currency(movie.total_gross, precision: 0) %></div>
+    <div><%= movie.description %></div>
+    <div>Release Date: <%= movie.released_on %></div>
+  </div>
   <% end %>
 </ul>

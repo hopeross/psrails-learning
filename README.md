@@ -16,4 +16,6 @@ Current: 1 March 2023
   * Yep.  Rails = Voodoo.  But, the migrations works fairly similarly to Entity Framework so it wasn't completely unfamiliar
 * Lesson 5 - Connecting MVC
   * Well that was weirdly easy.  This may actually be making sense.  Model lays out the structure of the data and interfacing with the database.  View displays said dada.  Controller shovels info about between the various parties and handsd it to the router which serves it up to the end user.
+* Lesson 6 - Migrations
+  * Also not terribly difficult though my generate didn't automagically add the new column names, I wound up building that by hand
 * 
