@@ -24,4 +24,6 @@ Current: 1 March 2023
   * Short and to the point
 * Lesson 9 - Stylesheets and Assets
   * Seriously if it's this magic-easy to get things going I see why it has its following.  
+* Lesson 10 - Show Page
+  * Using the built in parameter grabbing abilities of Ruby made the routing easy, you literally just pass in :id.  
 * 
