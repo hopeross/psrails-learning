@@ -22,4 +22,6 @@ Current: 1 March 2023
   * Weirdly making sense and very adament about separation of concerns.  Putting business logic not on the view itself, and not using a ton of ruby in the view as well.
 * Lesson 8 - Layouts
   * Short and to the point
+* Lesson 9 - Stylesheets and Assets
+  * Seriously if it's this magic-easy to get things going I see why it has its following.  
 * 
