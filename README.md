@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 1 March 2023
+Current: 3 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -36,4 +36,7 @@ Current: 1 March 2023
   * aka: routing.  Like everything else this has been easy in the context of the simple learning app.  Basically when 
   * the routes were created in the routes file it voo-doo created path helpers that you can then feed to the link_to 
   * helper and boom there's the nav bar done, plus the ability to go to individual detail pages
-* 
+* Lesson 12 - Editing Records
+  * Forms were a little more complicated in that there were a lot more methods to go through to find the right one(s) to
+  * use.  Ruby voo-doo is still in play though once you figure out the right method to use it magics up the binding up
+  * the data to the page.
