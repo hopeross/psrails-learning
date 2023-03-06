@@ -40,3 +40,6 @@ Current: 3 March 2023
   * Forms were a little more complicated in that there were a lot more methods to go through to find the right one(s) to
   * use.  Ruby voo-doo is still in play though once you figure out the right method to use it magics up the binding up
   * the data to the page.
+* Lesson 12 part 2 - Editing Records
+  * Part 2 took a little longer but in the middle of it we had a routing conversation around Trusted Admin while sorting
+  * out an operations issue which helped cement things a bit more.
