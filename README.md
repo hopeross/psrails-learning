@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 3 March 2023
+Current: 6 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -43,3 +43,8 @@ Current: 3 March 2023
 * Lesson 12 part 2 - Editing Records
   * Part 2 took a little longer but in the middle of it we had a routing conversation around Trusted Admin while sorting
   * out an operations issue which helped cement things a bit more.
+* Lesson 13 - Creating Records
+  * talked myself in circles on this one, apparently you need both the new method (to initate the new action) AND the 
+  * create method to save the new item.  I was trying to smash those two concepts together in to one.  They are 
+  * individual and if you use them correctly Rails will handle things through voodoo lol.
+* 
