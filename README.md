@@ -49,4 +49,6 @@ Current: 7 March 2023
   * individual and if you use them correctly Rails will handle things through voodoo lol.
 * Lesson 14 - Partials
   * Partials wasn't hard, basically the hard part was getting the syntax right
+* Lesson 15 - Destroy
+  * Other than arguing with myself back and forth about the words Delete/Destroy this was scarily easy.
 * 
