@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 6 March 2023
+Current: 7 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -47,4 +47,6 @@ Current: 6 March 2023
   * talked myself in circles on this one, apparently you need both the new method (to initate the new action) AND the 
   * create method to save the new item.  I was trying to smash those two concepts together in to one.  They are 
   * individual and if you use them correctly Rails will handle things through voodoo lol.
+* Lesson 14 - Partials
+  * Partials wasn't hard, basically the hard part was getting the syntax right
 * 
