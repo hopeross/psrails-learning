@@ -51,4 +51,7 @@ Current: 7 March 2023
   * Partials wasn't hard, basically the hard part was getting the syntax right
 * Lesson 15 - Destroy
   * Other than arguing with myself back and forth about the words Delete/Destroy this was scarily easy.
+* Lesson 16 - Custom Queries
+  * SQL got rails voo-doo'd, got it. But now I have a lot of ideas I want to do but realized I need to go off the rails 
+  * paved path of routing and custom routes isn't covered till lesson 39 lol
 * 
