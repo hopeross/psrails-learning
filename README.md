@@ -54,4 +54,6 @@ Current: 7 March 2023
 * Lesson 16 - Custom Queries
   * SQL got rails voo-doo'd, got it. But now I have a lot of ideas I want to do but realized I need to go off the rails 
   * paved path of routing and custom routes isn't covered till lesson 39 lol
+* Lesson 17 - Migrations, again
+  * Other than a bizarre data fight this went fairly smoothly
 * 
