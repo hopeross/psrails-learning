@@ -4,9 +4,9 @@ class MoviesController < ApplicationController
   #   @movies = Movie.released
   # end
 
-  # def index
-  #   @movies = Movie.all
-  # end
+  def index
+    @movies = Movie.all
+  end
 
   def show
     @movie = Movie.find(params[:id])
