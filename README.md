@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 7 March 2023
+Current: 13 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -58,4 +58,10 @@ Current: 7 March 2023
   * Other than a bizarre data fight this went fairly smoothly
 * Lesson 18 - Model Validations
   * Other than the ruby version of regex going on this was pretty straight forward.
-* 
+* Lesson 19 - Handling Validation Errors
+  * This is currently not working and I'm not sure why.  I will come back to it.  My code is solid as the lesson 
+  * presented, plus my searching through stack overflow/reddit posts.  Right now the model validations work fine.  If 
+  * you go into ruby console and do m = Movie.new and then m.save you get all the error messages.  But something on the 
+  * form/front end side is just completely ignoring/eating the error messages and I do not know why at this time.  
+  * According to one of my friends I just need to rage-google some more lolol
+  * 
