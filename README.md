@@ -69,4 +69,6 @@ Current: 13 March 2023
   * reverting it, call it note taking.
 * Lesson 21 - one-to-many: belongs_to
   * of course there's a helper to create migration, model, view, cnotroller, etc all at once
-* 
+* Lesson 22 - one-to-many: has-many
+  * the other side of the relationship coin. an event could have many registrations, a movie could have many reviews, a 
+  * post could have many comments
