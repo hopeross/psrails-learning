@@ -56,4 +56,6 @@ Current: 7 March 2023
   * paved path of routing and custom routes isn't covered till lesson 39 lol
 * Lesson 17 - Migrations, again
   * Other than a bizarre data fight this went fairly smoothly
+* Lesson 18 - Model Validations
+  * Other than the ruby version of regex going on this was pretty straight forward.
 * 
