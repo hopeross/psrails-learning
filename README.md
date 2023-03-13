@@ -64,4 +64,7 @@ Current: 13 March 2023
   * you go into ruby console and do m = Movie.new and then m.save you get all the error messages.  But something on the 
   * form/front end side is just completely ignoring/eating the error messages and I do not know why at this time.  
   * According to one of my friends I just need to rage-google some more lolol
-  * 
+* Lesson 20 - "The Flash"
+  * Seriously? LOL.  This was straight forward and made sense and worked.  I left the custom notice in place rather than
+  * reverting it, call it note taking.
+* 
