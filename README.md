@@ -67,4 +67,6 @@ Current: 13 March 2023
 * Lesson 20 - "The Flash"
   * Seriously? LOL.  This was straight forward and made sense and worked.  I left the custom notice in place rather than
   * reverting it, call it note taking.
+* Lesson 21 - one-to-many: belongs_to
+  * of course there's a helper to create migration, model, view, cnotroller, etc all at once
 * 
