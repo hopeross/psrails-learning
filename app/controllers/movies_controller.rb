@@ -1,5 +1,4 @@
 class MoviesController < ApplicationController
-  # bring this back later under a limited view of some sort
   # def index
   #   @movies = Movie.released
   # end
@@ -28,6 +27,7 @@ class MoviesController < ApplicationController
   def new
     @movie = Movie.new
   end
+
   def create
     @movie = Movie.new(movie_params)
     if @movie.save
@@ -40,9 +40,14 @@ class MoviesController < ApplicationController
   def destroy
     @movie = Movie.find(params[:id])
     @movie.destroy
-    redirect_to movies_url, danger: "Movie successfully deleted"
+    redirect_to movies_url, alert: "Movie successfully deleted!"
   end
+
+  private
+
   def movie_params
-    params.require(:movie).permit(:title,:description, :rating, :released_on, :total_gross, :director, :duration, :image_file_name)
+    params.require(:movie).
+      permit(:title, :description, :rating, :released_on, :total_gross,
+             :director, :duration, :image_file_name)
   end
 end

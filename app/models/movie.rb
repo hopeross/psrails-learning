@@ -1,4 +1,5 @@
 class Movie < ApplicationRecord
+
   has_many :reviews, dependent: :destroy
 
   validates :title, :released_on, :duration, presence: true
@@ -15,11 +16,12 @@ class Movie < ApplicationRecord
   RATINGS = %w(G PG PG-13 R NC-17)
 
   validates :rating, inclusion: { in: RATINGS }
+
   def self.released
-    Movie.where("released_on < ?", Time.now).order "released_on desc"
+    where("released_on < ?", Time.now).order("released_on desc")
   end
 
   def flop?
-    total_gross < 225000000
+    total_gross.blank? || total_gross < 225_000_000
   end
 end

@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 13 March 2023
+Current: 14 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -75,4 +75,8 @@ Current: 13 March 2023
 * Lesson 23 - one-to-many: nested resources
   * This is where the rubber met the road it seems.  How to show child resources within the assoication of their parent 
   * resource - ie: comments for the parent movie
+* Lesson 24 - one-to-many: forms
+  * Dug in deep on this lesson and learned a bunch and somehow magically fixed my issues from lesson 19 and validation
+  * now works.  I'm still not quite sure what I did to fix it but I'm sure it's something simple that I was missing and
+  * put in when working on the new form
 * 
