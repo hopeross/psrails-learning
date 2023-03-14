@@ -72,3 +72,7 @@ Current: 13 March 2023
 * Lesson 22 - one-to-many: has-many
   * the other side of the relationship coin. an event could have many registrations, a movie could have many reviews, a 
   * post could have many comments
+* Lesson 23 - one-to-many: nested resources
+  * This is where the rubber met the road it seems.  How to show child resources within the assoication of their parent 
+  * resource - ie: comments for the parent movie
+* 
