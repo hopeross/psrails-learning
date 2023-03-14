@@ -79,4 +79,6 @@ Current: 14 March 2023
   * Dug in deep on this lesson and learned a bunch and somehow magically fixed my issues from lesson 19 and validation
   * now works.  I'm still not quite sure what I did to fix it but I'm sure it's something simple that I was missing and
   * put in when working on the new form
+* Lesson 25 - one-to-many: logic
+  * A little more complex but ruby will (generally) tell you what's going on if you "listen"
 * 
