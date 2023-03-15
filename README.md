@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 14 March 2023
+Current: 15 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -81,4 +81,10 @@ Current: 14 March 2023
   * put in when working on the new form
 * Lesson 25 - one-to-many: logic
   * A little more complex but ruby will (generally) tell you what's going on if you "listen"
+* Lesson 26 - User account model
+  * works pretty much like any other parent level entity in ruby, with the addition of the encryption and a little bit 
+  * of ruby magic around passwords
+* Lesson 27 - User Signup
+  * oooh custom routes is a happy!  And easy.  I wonder how much overhead there is in a ruby program vs say a Kotlin & 
+  * React program given all the Ruby magic provided
 * 

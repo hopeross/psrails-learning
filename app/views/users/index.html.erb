@@ -1,0 +1,18 @@
+<h1>List of Users</h1>
+
+<ul class="users">
+  <% @users.each do |user| %>
+    <li>
+      <p>
+        <%= link_to(user.name, user_path(user)) %>
+        <span class="date">
+          <%= time_ago_in_words(user.created_at) %> ago
+        </span>
+      </p>
+      <p>
+        <%= user.email %>
+      </p>
+    </li>
+  <% end %>
+</ul>
+
