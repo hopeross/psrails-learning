@@ -96,4 +96,6 @@ Current: 17 March 2023
 * Lesson 30 - Authentication
   * Alright, some meat on this one.  But I got it to the point of signing in with email or username.  And it's pretty 
   * cool how there's an instance method to deal with the encryption password validation nightmare
+* Lesson 31 - Current User
+  * Is it weird that I'm finding this to be fun?
 * 
