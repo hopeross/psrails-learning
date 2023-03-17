@@ -2,8 +2,8 @@
 <p>No Account?  No problem!  Sign up <%= link_to "here", signup_path %>!</p>
 
 <%= form_with(url: session_path, local: true) do |f| %>
-  <%= f.label :email %>
-  <%= f.email_field :email, required: true %>
+  <%= f.label :email, "Enter email or password" %>
+  <%= f.text_field :email_or_username, required: true %>
 
   <%= f.label :password %>
   <%= f.password_field :password, required: true   %>

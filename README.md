@@ -90,4 +90,10 @@ Current: 17 March 2023
 * Lesson 28 - Edit (and delete) User Account
   * Ruby's verb to delete an account is rather aggressive.  "Destroy".  I guess that's a good way to remember it is 
   * permanent.  Spelling counts, a lot.  But this was good information.
+* Lesson 29 - Sign In
+  * Sessions are a little weird, took me a tick to wrap my brain around it.  Everything around a session is handled just
+  * a smidge different due to there not being a model
+* Lesson 30 - Authentication
+  * Alright, some meat on this one.  But I got it to the point of signing in with email or username.  And it's pretty 
+  * cool how there's an instance method to deal with the encryption password validation nightmare
 * 
