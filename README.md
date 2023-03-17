@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 15 March 2023
+Current: 17 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -87,4 +87,7 @@ Current: 15 March 2023
 * Lesson 27 - User Signup
   * oooh custom routes is a happy!  And easy.  I wonder how much overhead there is in a ruby program vs say a Kotlin & 
   * React program given all the Ruby magic provided
+* Lesson 28 - Edit (and delete) User Account
+  * Ruby's verb to delete an account is rather aggressive.  "Destroy".  I guess that's a good way to remember it is 
+  * permanent.  Spelling counts, a lot.  But this was good information.
 * 

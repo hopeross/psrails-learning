@@ -2,8 +2,12 @@
   <h1><%= @user.name %>'s Profile Page </h1>
 
   <p><%= mail_to(@user.email) %></p>
+  <p><%= @user.username %></p>
 
   <p>Member Since: <%= @user.created_at.strftime("%B %Y") %></p>
+
+  <p><%= link_to "Edit", edit_user_path(@user), class: "button edit" %></p>
+  <%= link_to "Delete", user_path(@user), class: "button", method: :delete, data: { confirm: 'really?'} %>
 </section>
 
 
