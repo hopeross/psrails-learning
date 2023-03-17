@@ -98,4 +98,7 @@ Current: 17 March 2023
   * cool how there's an instance method to deal with the encryption password validation nightmare
 * Lesson 31 - Current User
   * Is it weird that I'm finding this to be fun?
+* Lesson 32 - Sign Out
+  * That was remarkably easy.  Figured it was a delete the session cookie dance or something.  Nope.  Set session user
+  * id to nil.  Ruby magic ensues.
 * 
