@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 17 March 2023
+Current: 20 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -101,4 +101,8 @@ Current: 17 March 2023
 * Lesson 32 - Sign Out
   * That was remarkably easy.  Figured it was a delete the session cookie dance or something.  Nope.  Set session user
   * id to nil.  Ruby magic ensues.
-* 
+* Lesson 33 - Authorization (both parts)
+  * before doing action ensure user is signed in; before doing action ensure user is authorized to do action.  Fairly 
+  * straightforward.  I'm still waiting for the other shoe to drop but admin users is next so maybe that'll add the 
+  * other shoe I keep expecting to happen lol
+* Lesson 34
