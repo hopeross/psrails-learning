@@ -105,4 +105,6 @@ Current: 20 March 2023
   * before doing action ensure user is signed in; before doing action ensure user is authorized to do action.  Fairly 
   * straightforward.  I'm still waiting for the other shoe to drop but admin users is next so maybe that'll add the 
   * other shoe I keep expecting to happen lol
-* Lesson 34
+* Lesson 34 - Admin Users
+  * My biggest fight was with robocop who wanted me to change the syntax of one of the helper methods.  Which is fine, I
+  * know the PS lessons may be a little dated, but it caused me to loop through what the crap am I doing wrong moments.
