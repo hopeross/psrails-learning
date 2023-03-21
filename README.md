@@ -110,4 +110,6 @@ Current: 21 March 2023
   * know the PS lessons may be a little dated, but it caused me to loop through what the crap am I doing wrong moments.
 * Lesson 35 - Many to Many associations
   * Feelin a bit matrix-y at this point but I got it working.  review.user, review.movie, back and forth.
-* 
+* Lesson 36 - Another many to many
+  * This one feels a bit weird at this point but it's a two ... three? parter.  Maybe it'll make more sense the further 
+  * I go
