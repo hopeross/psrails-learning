@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 20 March 2023
+Current: 21 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -108,3 +108,6 @@ Current: 20 March 2023
 * Lesson 34 - Admin Users
   * My biggest fight was with robocop who wanted me to change the syntax of one of the helper methods.  Which is fine, I
   * know the PS lessons may be a little dated, but it caused me to loop through what the crap am I doing wrong moments.
+* Lesson 35 - Many to Many associations
+  * Feelin a bit matrix-y at this point but I got it working.  review.user, review.movie, back and forth.
+* 
