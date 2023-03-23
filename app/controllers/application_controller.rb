@@ -2,6 +2,7 @@ class ApplicationController < ActionController::Base
   add_flash_types(:danger)
 
   private
+
   def current_user
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end
@@ -19,6 +20,7 @@ class ApplicationController < ActionController::Base
       redirect_to root_url, alert: "Unauthorized access!"
     end
   end
+
   def require_signin
     unless current_user
       session[:intended_url] = request.url

@@ -1,20 +1,20 @@
 <ul>
   <% @movies.each do |movie| %>
-  <section class="movie">
+    <section class="movie">
 
-    <div class="summary">
-      <div class="image">
-        <%= image_tag movie.image_file_name %>
-      </div>
-      <h2><%= link_to(movie.title, movie_path(movie)) %></h2>
-      <h5>Release Year: <%= year_of(movie) %> (<%= movie.rating %>)</h5>
-      <span class="stars">
+      <div class="summary">
+        <div class="image">
+          <%= image_tag movie.image_file_name %>
+        </div>
+        <h2><%= link_to(movie.title, movie_path(movie)) %></h2>
+        <h5>Release Year: <%= year_of(movie) %> (<%= movie.rating %>)</h5>
+        <span class="stars">
         <%= render "shared/stars", percent: movie.average_stars_as_percent %>
       </span>
-    </div>
-    <h3><%= hit_or_flop(movie) %></h3>
-    <p><%= truncate(movie.description, length: 55, separator: ' ')  %></p>
-  </section>
+      </div>
+      <h3><%= hit_or_flop(movie) %></h3>
+      <p><%= truncate(movie.description, length: 55, separator: ' ') %></p>
+    </section>
   <% end %>
 </ul>
 
