@@ -113,3 +113,6 @@ Current: 21 March 2023
 * Lesson 36 - Another many to many
   * This one feels a bit weird at this point but it's a two ... three? parter.  Maybe it'll make more sense the further 
   * I go
+* Lesson 37 - Through Associations
+  * far more efficient, query wise, by using this.  A little tricky to fully comprehend but if one takes a step back and
+  * thinks it through it works.
