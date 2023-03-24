@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 21 March 2023
+Current: 24 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -117,3 +117,7 @@ Current: 21 March 2023
 * Lesson 37 - Through Associations
     * far more efficient, query wise, by using this. A little tricky to fully comprehend but if one takes a step back
       and thinks it through it works.
+* Lesson 38 - Many to Many with checkboxes
+    * Well that was actually kinda fun. Join tables are fairly useful tools to make connections between two different
+      models
+* 
