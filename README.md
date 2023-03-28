@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 24 March 2023
+Current: 28 March 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -120,4 +120,6 @@ Current: 24 March 2023
 * Lesson 38 - Many to Many with checkboxes
     * Well that was actually kinda fun. Join tables are fairly useful tools to make connections between two different
       models
-* 
+* Lesson 39 - Custom Scopes and Routes
+    * Like a lot of things in ruby and rails this seems rather scary and complicated till you realize there's a lot of
+      behind the scenes voodoo that makes magic happen. Also naming things is hard. 
