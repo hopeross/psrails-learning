@@ -122,4 +122,9 @@ Current: 28 March 2023
       models
 * Lesson 39 - Custom Scopes and Routes
     * Like a lot of things in ruby and rails this seems rather scary and complicated till you realize there's a lot of
-      behind the scenes voodoo that makes magic happen. Also naming things is hard. 
+      behind the scenes voodoo that makes magic happen. Also naming things is hard.
+* Lesson 40 - Friendly URLs
+    * I did get through the lesson and I swear it made sense a week ago when I did it but a week later when I picked up
+      the bonus round I couldn't get the bonus round to work So. Saving the code for now and going to come back to it
+      later when my brain reengages.
+  

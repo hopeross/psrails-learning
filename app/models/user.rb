@@ -1,8 +1,10 @@
 class User < ApplicationRecord
+  before_save :set_case
+  before_save :set_slug
+
   has_many :reviews, dependent: :destroy
   has_many :favorites, dependent: :destroy
   has_many :favorite_movies, through: :favorites, source: :movie
-
 
   has_secure_password
 
@@ -19,4 +21,14 @@ class User < ApplicationRecord
 
   scope :by_name, -> { order(:username)}
   scope :not_admin, -> { by_name.where(admin: false)}
+
+  private
+  def set_case
+    self.username = username.downcase
+    self.name = name.capitalize
+  end
+
+  def set_slug
+    self.slug = username.parameterize
+  end
 end

@@ -1,6 +1,6 @@
 class ReviewsController < ApplicationController
   before_action :require_signin
-  before_action :set_movie
+  before_action :set_movie, only: [:index, :new, :create]
 
   def index
     @reviews = @movie.reviews
@@ -29,6 +29,6 @@ class ReviewsController < ApplicationController
   end
 
   def set_movie
-    @movie = Movie.find(params[:movie_id])
+    @movie = Movie.find_by!(slug: params[:movie_id])
   end
 end
