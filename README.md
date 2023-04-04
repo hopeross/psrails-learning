@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 28 March 2023
+Current: 04 April 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -127,4 +127,8 @@ Current: 28 March 2023
     * I did get through the lesson and I swear it made sense a week ago when I did it but a week later when I picked up
       the bonus round I couldn't get the bonus round to work So. Saving the code for now and going to come back to it
       later when my brain reengages.
+* Lesson 41 - Deployment
+    * This seems fairly straightforward but I'm going to punt on the exercise to my home computer. I really don't want
+      to mix Heroku with my work github and would rather mix it with personal github so I can use it for future private
+      projects as well.
   
