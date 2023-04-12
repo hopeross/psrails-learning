@@ -4,7 +4,7 @@
 
       <div class="summary">
         <div class="image">
-          <%= image_tag movie.image_file_name %>
+          <%= main_image(movie) %>
         </div>
         <h2><%= link_to(movie.title, movie_path(movie)) %></h2>
         <h5>Release Year: <%= year_of(movie) %> (<%= movie.rating %>)</h5>

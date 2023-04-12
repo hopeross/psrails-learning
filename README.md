@@ -5,7 +5,7 @@ So far, it's half voodoo and half wtf do you mean there's no gem installed or ru
 
 Started: 27 February 2023
 
-Current: 04 April 2023
+Current: 12 April 2023
 
 * Lesson 1 - Introduction
 * Lesson 2 - Create App
@@ -131,4 +131,7 @@ Current: 04 April 2023
     * This seems fairly straightforward but I'm going to punt on the exercise to my home computer. I really don't want
       to mix Heroku with my work github and would rather mix it with personal github so I can use it for future private
       projects as well.
-  
+* Lesson 42 - Active Storage File Uploads
+    * Part 1 was the rails half and like everything else it's magically (suspiciously) easy. Got this part to work,
+      moving on to the second half.
+    * Part 2 was slightly tricky but came together nicely at the end. Spelling matters, just saying.
